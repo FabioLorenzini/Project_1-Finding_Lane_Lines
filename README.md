@@ -74,7 +74,7 @@ At the end the last step is to overlap the source image with the new one with ou
 
 ### 2. Identify potential shortcomings with your current pipeline
 
-   One potential shortcoming would be what would happen if  the road is all white (snow probably) and we are not aible to find the edges and the road lines.
+   One potential shortcoming would be what would happen if  the road is all white (snow probably) and we are not able to find the edges and the road lines.
   
    One more problem could be the bending radius of the road; increasing the turning of the road, we are not able to higlights the road lines in a perfect way.
   

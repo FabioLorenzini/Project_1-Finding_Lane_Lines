@@ -11,7 +11,7 @@ Starting from some sample images, the result will be the overlapping of the higl
 
 White Source Image               |           White Output Image
 :-------------------------:|:-------------------------:
-![](/CarND-LaneLines-P1/test_images/solidWhiteRight.jpg)               |               ![](/CarND-LaneLines-P1/test_images/WhiteOutputImage.png)
+![](/CarND-LaneLines-P1/test_images/solidWhiteRight.png)               |               ![](/CarND-LaneLines-P1/test_images/WhiteOutputImage.png)
 
 
 

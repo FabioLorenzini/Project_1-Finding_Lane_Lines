@@ -11,7 +11,7 @@ Starting from some sample images, the result will be the overlapping of the higl
 
 White Source Image               | White Output Image
 :-------------------------:|:-------------------------:
-
+![](/immagini_markdown/gatto.png)
 
 
 # **Pipeline** 

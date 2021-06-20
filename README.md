@@ -14,16 +14,16 @@ White Source Image               | White Output Image
 
 ![](./test_images/solidWhiteRight.jpg) |  ![](./image_output/yellow.gif)
 
+# **Pipeline** 
+My pipeline consists of 8 steps:
 
-The pipeline consists in 8 steps, including the ouput testing. This steps are also described and commented in the ipynb.
-
-1) Read/Upload the image to be processed.
-2) Conversion into Gray Scale (cv library).
-3) Canny Edge detection in order to higlight edges.
-4) Define a polynomial region of interest (where to find lane lines).
-5) Hough Transformation in order to identify points building a line.
+1) Read the source raw image.
+2) Convert the image into Gray Scale.
+3) Canny Edge detection.
+4) Draw the region of interest.
+5) Hough Transformation.
 6) Line drawing
-7) Overlay of the two images (lines detected + original image).
+7) Overlapping of the two images.
 8) Output testing.
 
 

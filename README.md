@@ -11,3 +11,5 @@ Starting from some sample images, the result will be the overlapping of the higl
 
 White Output               | Yellow Output
 :-------------------------:|:-------------------------:
+
+![](./image_output/white.gif) |  ![](./image_output/yellow.gif)

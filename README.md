@@ -30,49 +30,49 @@ My pipeline consists of 8 steps:
 
 
 
-### 1) Read/Upload the image to be processed
+### 1) Read the source raw image.
 
 First of all, we have to upload the image.
 
 ->![Starting image](./image_output/starting.png)<-
 
-### B) Conversion into Gray Scale (cv library)
+### 2) Convert the image into Gray Scale.
 
 Once the image is uploaded, it is converted to a gray scaled one to start highlighting the pixel gradients.
 
 ->![Gray scaled image](./image_output/grayscale.png)<-
 
-### C) Canny Edge detection in order to higlight edges.
+### 3) Canny Edge detection.
 
 Canny Edge Detection is based on gradient, meaning how fast are x and y changning. It is expected to find edges where pixel values change rapidly (road lines).
 
 ->![Edge Detected](./image_output/edge.png)<-
 
-### D) Define a polynomial region of interest (where to find lane lines).
+### 4) Draw the region of interest.
 
 In an image, only a region of interest has to be taken into account, where our lines will be. For this reason, a mask is created in order to higlight edges where required.
 
 ->![Edge Masked](./image_output/edgemasked.png)<-
 
-### E) Hough Transformation in order to identify points building a line.
+### 5) Hough Transformation.
 
 A transofrmation into the Hough Space is then performed in order to find the line that pass through all the points that a re making a line.
 
 ->![Hough Transofrmation](./image_output/houghtransform.png)<-
 
-### F) Line drawing
+### 6) Lines drawing
 
 Once the line are highlightes, an average and extrapolation of their points is performed in order to draw the road lines.
 
 ->![Road Lines Drawn](./image_output/linedrawn.png)<-
 
-### G) Overlay of the two images (lines detected + original image).
+### 7) Overlapping of the two images.
 
 Last part of the pipeline is to overlay the starting image with the one with the lines drawn.
 
 ->![Images overlayed](./image_output/finalimage.png)<-
 
-### H) Output testing.
+### 8) Output testing.
 
 
 ### 2. Identify potential shortcomings with your current pipeline

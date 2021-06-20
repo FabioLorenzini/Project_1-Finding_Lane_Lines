@@ -12,6 +12,8 @@ Starting from some sample images, the result will be the overlapping of the higl
 White Source Image               | White Output Image
 :-------------------------:|:-------------------------:
 
+![alt text][solidWhiteRight.jpg]
+
 ![](./test_images/solidWhiteRight.jpg) |  ![](./image_output/yellow.gif)
 
 # **Pipeline** 
@@ -22,15 +24,15 @@ My pipeline consists of 8 steps:
 3) Canny Edge detection.
 4) Draw the region of interest.
 5) Hough Transformation.
-6) Line drawing
+6) Lines drawing
 7) Overlapping of the two images.
 8) Output testing.
 
 
 
-### A) Read/Upload the image to be processed
+### 1) Read/Upload the image to be processed
 
-First step is to upload the image that has to be processed.
+First of all, we have to upload the image.
 
 ->![Starting image](./image_output/starting.png)<-
 

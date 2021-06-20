@@ -12,4 +12,6 @@ Starting from some sample images, the result will be the overlapping of the higl
 White Source Image               | White Output Image
 :-------------------------:|:-------------------------:
 
-![](./image_output/white.gif) |  ![](./image_output/yellow.gif)
+![](.CarND-LaneLines-P1/test_images/solidWhiteRight.jpg) |  ![](./image_output/yellow.gif)
+
+
